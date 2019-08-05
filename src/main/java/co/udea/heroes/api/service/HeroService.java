@@ -65,6 +65,5 @@ public class HeroService implements HeroServiceInt{
     public void deleteHero(Hero hero) {
         heroRepository.delete(hero);
     }
-
-
+    
 }
